@@ -48,6 +48,12 @@ public class DataTypeExamples {
 }
 
 class Person {
+    public Person(String string, int i) {
+    }
     String name;
     int age;
+    public void displayInfo() {
+    }
+    public void setAge(int i) {
+    }
 }
